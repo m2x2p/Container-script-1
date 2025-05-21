@@ -12,13 +12,6 @@ apt install mc -y
 
 echo "überprüfen ob NAS verzeichnis eingängt ist"
  
-if [ -d "$ORDNER" ]; then
-    echo "NAS ist da :)"
-else
-    echo "NAS nicht da :(" >&2
-    exit 1
-fi
-
 
 
 
